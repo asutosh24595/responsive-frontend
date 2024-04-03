@@ -9,7 +9,7 @@ import secondBg from "./assets/assets-7.jpg";
 export default function Climb() {
   const [selectedLink, setSelectedLink] = useState("Mountain 1");
   const [mainBackground, setMainBackground] = useState(
-    mainBg // Initial background image
+    mainBg 
   );
 
   const handleClick = (link) => {
@@ -18,7 +18,6 @@ export default function Climb() {
     if (link === "Mountain 2") {
         setMainBackground(secondBg);
       } else {
-        // Set a default or another image for other links
         setMainBackground(mainBg);
       }
   };

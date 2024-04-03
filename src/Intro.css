@@ -41,12 +41,6 @@ span a{
     .header{
         background-size: auto;
     }
-
-    .intro {
-      display:inline-block;
-      flex-direction:column;
-      align-items:center;
-    }
   
     .intro img{
         margin-left: 10px;
