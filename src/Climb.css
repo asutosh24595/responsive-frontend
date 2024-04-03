@@ -1,0 +1,128 @@
+.climb-intro{
+    display:flex;
+    margin-left: 200px;
+}
+
+.climb-text{
+    font-size: smaller;
+    text-align: center;
+}
+
+.climb-main{
+    position: relative; /* Enable absolute positioning for child elements */
+    height: 500px;
+    overflow: hidden; /* Prevent image overflow */
+    background-image: url("./assets/assets-11.jpg"); /* Replace with your image path */
+    background-size:cover;
+    background-position: center;
+}
+
+.top-nav{
+    background-image: url("./assets/assets-15.jpg");
+    height: 40px;
+}
+
+.top-nav a{
+    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin:2px;
+    padding-right: 15px;
+    padding-left:15px;
+    text-decoration: none;
+    color: black;
+}
+
+.top-nav a:hover {
+    background-color: #2980b9; /* slightly darker blue on hover */
+    color: white; /* black text on hover */
+  }
+
+.top-nav span{
+    margin-left: 250px;
+}
+
+.top-nav a.selected {
+    background-color:silver; 
+    color: #1d3557; 
+    font-weight: bold;
+    text-decoration:underline;
+  }
+
+  .schedule{
+    background-color: white;
+    height:190px;
+    width:300px;
+    opacity: 0.7;
+    margin-left: 280px;
+  }
+
+  .schedule-container{
+    display:flex;
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+
+  .schedule-table{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+
+
+  .schedule-table td {
+    padding-right: 25px; /* Add padding to each cell */
+    padding-top: 4px;
+  }
+
+  .footer{
+    background-image: url("./assets/assets-2.jpg");
+    height: 50px;
+  }
+
+  .climb-footer{
+    display: flex;
+    align-items: center;
+    margin-left: 300px;
+  }
+  .climb-footer p{
+    margin-left: 450px;
+    padding-top: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .climb-intro{
+      margin-left: 5px;
+    }
+
+    #climb h2{
+      margin-right: 20px;
+    }
+
+    .climb-text{
+      text-align:left;
+    }
+  
+    .top-nav a{
+      font-size: 20px;
+    }
+
+    .top-nav span{
+      margin-left: 25px;
+    }
+
+    .schedule{
+      margin-left: 28px;
+    }
+
+    .climb-footer{
+      margin-left: 30px;
+    }
+    .climb-footer p{
+      margin-left: 45px;
+      padding-top: 10px;
+      font-size: small;
+    }
+  
+  }
+  

@@ -1,0 +1,16 @@
+.slider-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./assets/assets-22.jpg");
+    opacity: 0.5; 
+  }
+
+.slick-slide img {
+    margin-left: 80px;
+    height: 100px; /* Adjust the height as needed */
+  }
+ 

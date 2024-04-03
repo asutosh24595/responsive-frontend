@@ -1,0 +1,69 @@
+.header {
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+    background-image: url("./assets/Untitled\ design.png");
+    background-size:cover;
+    background-position: center;
+  }
+
+  .overlay img{
+    position: absolute;
+    top:18%;
+    left: 37%;
+    width:450px;
+    height: 180px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+}
+
+.intro img{
+    margin-right: 500px;
+    margin-left: 300px;
+}
+
+span a{
+    margin-left:100px;
+    font-size: small;
+}
+
+.header a{
+    font-style: italic;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header{
+        background-size: auto;
+    }
+
+    .intro {
+      display:inline-block;
+      flex-direction:column;
+      align-items:center;
+    }
+  
+    .intro img{
+        margin-left: 10px;
+    }
+
+    .intro a{
+        display: none;
+    }
+
+    .overlay img{
+        position: absolute;
+        top:22%;
+        left: 20%;
+        width:300px;
+        height: 150px;
+    }
+  }
+
+
+
+

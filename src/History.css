@@ -1,0 +1,68 @@
+.history-body {
+    position: relative; /* Enable absolute positioning for child elements */
+    height: 550px;
+    overflow: hidden; /* Prevent image overflow */
+    background-image: url("./assets/assets-23.jpg"); /* Replace with your image path */
+    background-size:cover;
+    background-position: center;
+  }
+
+
+.my-div{
+    display: flex;
+    margin-top: 20px;
+    margin-left:220px;
+}
+
+.centered-text {
+  font-size: smaller;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-container {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+main a{
+  font-style: italic;
+  color: black;
+}
+
+.nav-icon{
+  margin-left: 300px;
+  margin-right: 430px;
+}
+
+.nav-icon img{
+  margin: 2px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-icon{
+    display: flex;
+    margin-left: 0;
+  }
+
+  #history a{
+    display: none;
+  }
+
+  .my-div{
+    margin-left:40px;
+  }
+
+  .centered-text {
+    top: 25%;
+  }
+  
+  
+}
+
