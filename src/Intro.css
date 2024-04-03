@@ -33,6 +33,7 @@ span a{
 .header a{
     font-style: italic;
     color: white;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
