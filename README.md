@@ -71,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # responsive-frontend
+
+This a responsive SPA developed using React. When the screen size changes to small screens such as mobile, the tabs are changed to accordions.
